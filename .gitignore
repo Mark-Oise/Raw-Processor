@@ -1,0 +1,122 @@
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*$py.class
+
+############################
+# Virtual Environments
+############################
+.venv/
+venv/
+env/
+ENV/
+
+############################
+# Environment Variables
+############################
+.env
+.env.*
+!.env.example
+
+############################
+# Django
+############################
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+############################
+# Build / Distribution
+############################
+build/
+dist/
+wheels/
+.eggs/
+*.egg-info/
+*.egg
+
+############################
+# Logs
+############################
+*.log
+logs/
+celerybeat-schedule
+celerybeat.pid
+
+############################
+# Caches & Temp Files
+############################
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.tmp
+*.swp
+*.swo
+
+############################
+# Jupyter / ML
+############################
+.ipynb_checkpoints/
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+
+############################
+# Redis / DB dumps
+############################
+dump.rdb
+*.rdb
+*.sql
+
+############################
+# IDEs & Editors
+############################
+.idea/
+.vscode/
+*.iml
+*.code-workspace
+
+############################
+# OS Files
+############################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+############################
+# Node (if frontend exists)
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+############################
+# Docker
+############################
+.env.docker
+docker-compose.override.yml
+
+############################
+# Security
+############################
+*.pem
+*.key
+*.crt
+*.cert
+
+############################
+# Misc
+############################
+*.bak
+*.orig
